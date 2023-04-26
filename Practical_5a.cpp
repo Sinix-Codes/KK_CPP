@@ -15,10 +15,10 @@ class Student
     public:
         float marks;
     
-    friend float adder(Student s);
+    friend float marksAdder(Student s);
 };
 
-float adder(Student s)
+float marksAdder(Student s)
 {
     int pass;
 
@@ -39,6 +39,7 @@ float adder(Student s)
 int main(){
    cout<<prod(5,4);      // code of fuction from line 4 to 7  comes at line 10
    Student s;
-   cout<<adder(s);
+   cout<<marksAdder(s);
    return 0;
 }
+
