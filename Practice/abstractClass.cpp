@@ -19,20 +19,16 @@ class car : public Vehicle{
 class aeroplane : public Vehicle{
     void canFly()
     {
-        cout<<"Yes it can";
+        cout<<"\nYes it can";
     }
 };
 
 int main(){
-    Vehicle *v1;
-    car c1;
-    aeroplane a1;
+    Vehicle *v1 = new car;
+    Vehicle *v2 = new aeroplane;
 
-    v1 = &c1;
     v1->canFly();
-
-    v1 = &a1;
-    v1->canFly();
+    v2->canFly();
 
     return 0;
 }
