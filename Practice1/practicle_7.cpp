@@ -65,13 +65,13 @@ int main()
     a.setx();
     b.setx();
 
-	// ++a;
+	++a;
 
-    // cout<<a.x;
+    cout<<a.x;
 
-    // -a;
+    -a;
 
-    // cout<<a.x;
+    cout<<a.x;
 
     c = a+b;
     cout <<"\nValue of c.x : " << c.x;

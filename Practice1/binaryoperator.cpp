@@ -19,7 +19,8 @@ class adder{
 	}
 
 
-	friend adder operator + (adder m,adder n);
+	friend adder operator + (adder m,adder n
+	);
 
 };
 

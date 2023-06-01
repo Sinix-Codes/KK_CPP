@@ -1,0 +1,10 @@
+random 10 lines 
+more hot questions
+question feed
+question fee
+1 Answer up vote 1 down vote accepted
+You can use the following command
+sudo apt-get install --reinstall ubuntu-desktop
+On the next login your Unity shell should be restored.
+share|improve this answer
+answered Jun 29 '12 at 11:31

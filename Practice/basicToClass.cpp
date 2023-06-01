@@ -13,6 +13,6 @@ class Myclass{
 
 int main(){
    int v=10;
-   Myclass num = v;
+   Myclass num(v);
    return 0;
 }

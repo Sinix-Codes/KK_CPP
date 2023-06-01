@@ -42,8 +42,8 @@ class derived : public base1,public base2{
 
 int main(){
    derived d1(1,2,3,4);
+   d1.printderived();
    d1.printbase1();
    d1.printbase2();
-   d1.printderived();
    return 0;
 }

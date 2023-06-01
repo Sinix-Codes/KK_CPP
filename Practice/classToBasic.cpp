@@ -4,9 +4,8 @@ using namespace std;
 class Myclass{
     public: 
         int x;
-        Myclass(int v){
-            x=v;
-        }
+        Myclass(int v):x(v){}
+        
         operator int(){
             return x;
         }
